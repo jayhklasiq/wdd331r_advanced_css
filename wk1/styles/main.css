@@ -20,15 +20,21 @@ li {
 	padding-left: 20px;
 }
 
-ul li:visited {
+li a:visited,
+h2 a:visited,
+p a:visited {
 	color: #666;
 }
 
-li:active {
+li a:active,
+h2 a:active,
+p a:active {
 	color: #deb887;
 }
-li:hover {
-	color: #d0d0d0;
+li a:hover,
+h2 a:hover,
+p a:hover {
+	color: #00ddff;
 }
 
 h1 a {
